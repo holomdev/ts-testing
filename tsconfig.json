@@ -14,11 +14,11 @@
     "esModuleInterop": true,
     "baseUrl": "src",
     "paths": {
-      "@/*": [
-        "*"
-      ],
       "@/tests/*": [
         "../tests/*"
+      ],
+      "@/*": [
+        "*"
       ]
     },
     "strict": true

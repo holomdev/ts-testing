@@ -12,7 +12,8 @@
     "test:watch": "npm test --  --watch",
     "test:staged": "npm test --  --findRelatedTests",
     "test:coverage": "npm test --  --coverage",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "cons": "node dist/infrastructure/driving-adapters/console/console.js"
   },
   "keywords": [],
   "author": "",
@@ -37,5 +38,8 @@
   "dependencies": {
     "module-alias": "^2.2.2",
     "rimraf": "^3.0.2"
+  },
+  "_moduleAliases": {
+    "@": "dist"
   }
 }
